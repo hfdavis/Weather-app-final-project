@@ -13,44 +13,58 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="search" />
-        </form>
-      </header>
+    <div class="app">
+      <div class="container">
+        <header>
+          <form>
+            <input
+              class="search-bar"
+              type="search"
+              placeholder="Enter a city..."
+              required
+            />
+            <input class="search-button" type="submit" value="search" />
+          </form>
+        </header>
 
-      <main>
-        <div>
-          <h1>London</h1>
+        <main>
+          <div>
+            <h1>London</h1>
 
-          <p>
-            Wednesday 9:15, overcast clouds
-            <br />
-            Humidity: 83%, Wind: 6.69km/h
-          </p>
-        </div>
+            <p>
+              Wednesday 9:15, overcast clouds
+              <br />
+              Humidity: 83%, Wind: 6.69km/h
+            </p>
+          </div>
 
-        <div>☀️13 °C</div>
-      </main>
+          <div>☀️13 °C</div>
+        </main>
+      </div>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/hfdavis" target="blank">Holly Davis</a> , is
+        <a
+          href="https://github.com/hfdavis/Weather-app-final-project"
+          target="blank"
+          >open-sourced on GitHub</a
+        >
+
+        and
+        <a href="https://main--dancing-blini-4b5afd.netlify.app/" target="blank"
+          >hosted on Netlify</a
+        >
+      </footer>
     </div>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/hfdavis" target="blank">Holly Davis</a> , is
-      <a
-        href="https://github.com/hfdavis/Weather-app-final-project"
-        target="blank"
-        >open-sourced on GitHub</a
-      >
-
-      and
-      <a href="https://main--dancing-blini-4b5afd.netlify.app/" target="blank"
-        >hosted on Netlify</a
-      >
-    </footer>
     <script src="src/app.js"></script>
 
     <script

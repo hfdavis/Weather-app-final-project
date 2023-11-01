@@ -1,3 +1,38 @@
-h1 {
-    color: blue;
+body {
+    background-color: rgb(213, 213, 248);
+}
+
+.container {
+    font-family: josefin sans;
+}
+
+
+.app {
+    background-color: rgb(255, 255, 255);
+    max-width: 700px;
+    display: block;
+    margin: 45px auto;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.search-bar {
+    background-color: rgb(224, 235, 255);
+    border: none;
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-button {
+    background-color: rgb(126, 132, 255);
+    color: azure;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+form {
+    margin-bottom: 20px;
 }
