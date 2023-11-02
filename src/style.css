@@ -14,6 +14,8 @@ body {
     margin: 45px auto;
     padding: 50px;
     border-radius: 16px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    ;
 }
 
 .search-bar {
@@ -35,4 +37,52 @@ body {
 
 form {
     margin-bottom: 20px;
+}
+
+.weather-app-city {
+    font-size: 60px;
+
+}
+
+.weather-app-details {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.weather-app-details strong {
+    color: rgb(246, 1, 136);
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.temperature-container {
+    display: flex;
+    justify-content: right;
+}
+
+.app-icon {
+    font-size: 60px;
+}
+
+.app-temperature {
+    font-size: 88px;
+    font-weight: bold;
+
+}
+
+.app-unit {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+}
+
+a {
+    color: #7E84FF;
 }
