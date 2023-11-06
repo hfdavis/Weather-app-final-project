@@ -55,7 +55,35 @@ function handleSearchSubmit(event) {
   searchCity(searchInput.value);
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Tue", "Wed", "Thu", " Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+      <div class="row">
+              <div class="col-2">
+<div class="weather-forecast-date">${day}</div> 
+<img class="forecast-img" src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="" width="36px"/>
+
+  <div class="weather-forecast-temperature">
+  <span class="weather-forecast-temperature-max">18</span>
+  <span class="weather-forecast-temperature-min">12</span>
+  </div>
+  </div>
+  </div>
+  `;
+  });
+
+  forecastElement.innerHTML = forecastHtml;
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("London");
+displayForecast();

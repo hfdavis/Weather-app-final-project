@@ -90,21 +90,44 @@ form {
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
 
+
+}
+
+.forecast-img {
+    display: block;
+    margin-left: 5px;
 }
 
 .weather-forecast-date {
     font-size: 20px;
     opacity: 0.6;
+
+    padding: 5px;
 }
 
 .weather-forecast-temperature {
     font-size: 18px;
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(246, 1, 136);
+
+}
+
+.weather-forecast-temperature-max {
+
+    padding: 5px;
+
+
 }
 
 .weather-forecast-temperature-min {
     opacity: 0.6;
+    padding: 5px;
+
 }
 
 footer {
