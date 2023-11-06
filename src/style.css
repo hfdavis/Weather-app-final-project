@@ -86,6 +86,27 @@ form {
     margin-top: 30px;
 }
 
+.weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.weather-forecast-date {
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.weather-forecast-temperature {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.weather-forecast-temperature-min {
+    opacity: 0.6;
+}
+
 footer {
     font-size: 10px;
     text-align: center;
