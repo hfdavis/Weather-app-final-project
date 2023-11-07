@@ -56,6 +56,7 @@ form {
 .weather-app-details {
     font-size: 20px;
     line-height: 40px;
+    padding-bottom: 20px;
 }
 
 .weather-app-details strong {
@@ -78,7 +79,7 @@ form {
 
 .app-temperature {
     font-size: 88px;
-    font-weight: bold;
+    font-weight: normal;
 
 }
 
@@ -88,27 +89,34 @@ form {
 }
 
 .weather-forecast {
+
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 30px;
+
 
 
 }
 
 .forecast-img {
     display: block;
+    margin: 0 auto;
     width: 80px;
+
 
 }
 
 .weather-forecast-date {
     font-size: 20px;
     opacity: 0.6;
-    text-align: right;
+    text-align: center;
+    padding-left: 21px;
 
-    padding: 5px;
+
+
 }
 
 .weather-forecast-temperature {
